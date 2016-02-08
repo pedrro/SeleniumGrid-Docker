@@ -3,10 +3,12 @@ package com.sample.commons;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.junit.Ignore;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+@Ignore
 public class TestBaseSetup {
 	private WebDriver driver;
 	private DesiredCapabilities desiredCapabilities;
