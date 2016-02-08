@@ -1,6 +1,6 @@
 # SELENIUM-GRID + DOCKER-COMPOSE
 
-That is an example of how to use selenium-grid + docker-compose.
+That is an example of how to use selenium-grid + docker-compose + JUnit to run tests in parallel.
 
 ## Running
 
@@ -24,6 +24,6 @@ Now, enter in your browser and enter your host in port 4444.
 
 -  `http://XXX.XXX.XX.XXX:4444/grid/console`
 
-Now, to run the tests in the selenium grid, just put the maven command to run the tests: 
+Now, to run the tests in parallel on the selenium grid, just put the maven command to run the tests: 
 
 - `mvn test`
